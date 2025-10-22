@@ -1,1 +1,21 @@
 @import url(colors.css);
+@font-face {
+  font-family: "CarroisGothic";
+  src: url("../assets/fonts/CarroisGothic-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "CarroisGothicSC";
+  src: url("../assets/fonts/CarroisGothicSC-Regular.ttf") format("truetype");
+}
+
+:root {
+  background-color: black;
+  color: var(--tht_purple2);
+  font-family: "CarroisGothic";
+}
+
+h1, h2, h3, h4 {
+  font-family: "CarroisGothicSC";
+  color: var(--tht_purple1);
+}
