@@ -15,6 +15,33 @@
   font-family: "CarroisGothic";
 }
 
+header, article {
+  border-style: groove;
+  border-color: var(--tht_purple3);
+
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 8px;
+}
+
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px groove;
+}
+
+td {
+  text-align: center;
+  min-width: 10vw;
+}
+
+td img {
+  max-width: 20vw;
+  height: auto;
+}
+
 h1, h2, h3, h4 {
   font-family: "CarroisGothicSC";
   color: var(--tht_purple1);
