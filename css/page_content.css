@@ -50,3 +50,41 @@ h1, h2, h3, h4 {
 hr {
   color: var(--tht_purple1);
 }
+
+div.identity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+div.id_img {
+  height: auto;
+  width: auto;
+
+  position: sticky; 
+  margin-right: 2px;
+
+  border-style: double;
+  border-width: 4px;
+  border-color: var(--tht_purple2);
+}
+
+div.identity img {
+  width: auto;
+  height: 110px;
+
+}
+
+table.identity {
+  width: 75%
+}
+
+table.identity th {
+  width: 20%;
+}
+
+table.identity td {
+  text-align: left;
+}
